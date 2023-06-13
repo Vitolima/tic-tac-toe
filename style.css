@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:wght@300;400&family=Righteous&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: radial-gradient(circle at 14.64% 111.24%, #c4e7ff 0, #6fabda 50%, #0072af 100%);
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    display: grid;
+    place-items: center;
+}
+p{
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 80px;    
+}
+button{
+    background: none;
+    border: none;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+#main-square{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    border-radius: 2px;
+        
+}
+#center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: transparent;
+    border-radius: 2px;
+    text-align: center;
+
+}
+#a1,#a2,#b1,#b2{
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+#a3,#b3{
+    border-right: 5px solid black;
+}
+#c1,#c2{
+    border-bottom: 5px solid black;
+}
+.square:hover{
+    background-color: #76B0DD;
+    transition: 45ms;
+}
